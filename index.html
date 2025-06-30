@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog 2</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!--fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!--swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom"
+    >
+      <div class="container">
+        <a class="navbar-brand fs-2s" href="#">
+          <span class="text-pink">JUST<sup class="fw-light fs-6">TM</sup></span>
+          &nbsp;CREATIVE
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Resources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Branding Bundle</a></li>
+                <li><a class="dropdown-item" href="#">Courses</a></li>
+                <li><a class="dropdown-item" href="#">Tools</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                style="color: var(--pink-color) !important"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+      <div class="row">
+        <!-- Blog Posts Column desktop-->
+        <div class="col-lg-8 main-content d-md-block d-none">
+          <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-md-6">
+              <div class="card blog-card">
+                <img
+                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=200&fit=crop"
+                  class="card-img-top"
+                  alt="Students working"
+                />
+                <div class="card-body">
+                  <p class="blog-date">FEBRUARY 28, 2022</p>
+                  <h5 class="blog-title">
+                    The Best Student Software in 2022 (Free & Paid)
+                  </h5>
+                  <div class="mb-3">
+                    <a href="#" class="category-tag">Adobe</a>
+                    <a href="#" class="category-tag">Design For Students</a>
+                  </div>
+                  <p class="blog-excerpt">
+                    Owning a laptop or PC requires certain student software that
+                    you must install. Here is the best student software, both
+                    free and premium.
+                  </p>
+                  <a href="#" class="read-more">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="col-md-6">
+              <div class="card blog-card">
+                <img
+                  src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=200&fit=crop"
+                  class="card-img-top"
+                  alt="Phone with Spotify"
+                />
+                <div class="card-body">
+                  <p class="blog-date">FEBRUARY 28, 2022</p>
+                  <h5 class="blog-title">
+                    6 Excellent Website Branding Examples Worth Knowing
+                  </h5>
+                  <div class="mb-3">
+                    <a href="#" class="category-tag">Branding</a>
+                    <a href="#" class="category-tag">Guest Articles</a>
+                    <a href="#" class="category-tag">Web Design & UX</a>
+                  </div>
+                  <p class="blog-excerpt">
+                    Your website is a prime opportunity to brand your business
+                    and set the tone for your other channels. Here are 6 killer
+                    website branding examples to learn from.
+                  </p>
+                  <a href="#" class="read-more">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="col-md-6">
+              <div class="card blog-card">
+                <img
+                  src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=200&fit=crop"
+                  class="card-img-top"
+                  alt="Screen printing"
+                />
+                <div class="card-body">
+                  <p class="blog-date">FEBRUARY 28, 2022</p>
+                  <h5 class="blog-title">
+                    7 Best Screen Print Printers in 2022
+                  </h5>
+                  <div class="mb-3">
+                    <a href="#" class="category-tag">Tools & Gear</a>
+                  </div>
+                  <p class="blog-excerpt">
+                    Looking for the best screen print printer in 2022? We've
+                    outlined the top 7 picks for you along with a detailed guide
+                    on how to choose the right printer!
+                  </p>
+                  <a href="#" class="read-more">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Post 4 -->
+            <div class="col-md-6">
+              <div class="card blog-card">
+                <img
+                  src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=200&fit=crop"
+                  class="card-img-top"
+                  alt="Design books"
+                />
+                <div class="card-body">
+                  <p class="blog-date">FEBRUARY 28, 2022</p>
+                  <h5 class="blog-title">10+ Best Logo Design Books in 2022</h5>
+                  <div class="mb-3">
+                    <a href="#" class="category-tag">Logo Design</a>
+                  </div>
+                  <p class="blog-excerpt">
+                    The best logo design books can be great for reference or
+                    inspiration and our list of the 10+ best logo design books
+                    will surely fill your bookshelf!
+                  </p>
+                  <a href="#" class="read-more">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Blog Posts in Mobile-->
+        <div class="d-md-none d-block">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="card blog-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=200&fit=crop"
+                    class="card-img-top"
+                    alt="Students working"
+                  />
+                  <div class="card-body">
+                    <p class="blog-date">FEBRUARY 28, 2022</p>
+                    <h5 class="blog-title">
+                      The Best Student Software in 2022 (Free & Paid)
+                    </h5>
+                    <div class="mb-3">
+                      <a href="#" class="category-tag">Adobe</a>
+                      <a href="#" class="category-tag">Design For Students</a>
+                    </div>
+                    <p class="blog-excerpt">
+                      Owning a laptop or PC requires certain student software
+                      that you must install. Here is the best student software,
+                      both free and premium.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card blog-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=200&fit=crop"
+                    class="card-img-top"
+                    alt="Phone with Spotify"
+                  />
+                  <div class="card-body">
+                    <p class="blog-date">FEBRUARY 28, 2022</p>
+                    <h5 class="blog-title">
+                      6 Excellent Website Branding Examples Worth Knowing
+                    </h5>
+                    <div class="mb-3">
+                      <a href="#" class="category-tag">Branding</a>
+                      <a href="#" class="category-tag">Guest Articles</a>
+                      <a href="#" class="category-tag">Web Design & UX</a>
+                    </div>
+                    <p class="blog-excerpt">
+                      Your website is a prime opportunity to brand your business
+                      and set the tone for your other channels. Here are 6
+                      killer website branding examples to learn from.
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card blog-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=200&fit=crop"
+                    class="card-img-top"
+                    alt="Screen printing"
+                  />
+                  <div class="card-body">
+                    <p class="blog-date">FEBRUARY 28, 2022</p>
+                    <h5 class="blog-title">
+                      7 Best Screen Print Printers in 2022
+                    </h5>
+                    <div class="mb-3">
+                      <a href="#" class="category-tag">Tools & Gear</a>
+                    </div>
+                    <p class="blog-excerpt">
+                      Looking for the best screen print printer in 2022? We've
+                      outlined the top 7 picks for you along with a detailed
+                      guide on how to choose the right printer!
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card blog-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=200&fit=crop"
+                    class="card-img-top"
+                    alt="Design books"
+                  />
+                  <div class="card-body">
+                    <p class="blog-date">FEBRUARY 28, 2022</p>
+                    <h5 class="blog-title">
+                      10+ Best Logo Design Books in 2022
+                    </h5>
+                    <div class="mb-3">
+                      <a href="#" class="category-tag">Logo Design</a>
+                    </div>
+                    <p class="blog-excerpt">
+                      The best logo design books can be great for reference or
+                      inspiration and our list of the 10+ best logo design books
+                      will surely fill your bookshelf!
+                    </p>
+                    <a href="#" class="read-more">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+          <div class="sidebar p-4">
+            <!-- Search Box -->
+            <div class="search-box mb-4">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search ..."
+                />
+                <button class="btn search-btn" type="button">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Profile Card -->
+            <div class="profile-card">
+              <img
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
+                alt="Jacob Cass"
+                class="profile-img"
+              />
+              <p>
+                <strong>Jacob Cass</strong> is a brand designer & strategist,
+                educator, speaker, business coach and the founder of JUST
+                Creative, an award-winning branding & design consultancy that
+                doubles as an industry-leading blog.
+              </p>
+              <a href="#" style="color: white; text-decoration: underline"
+                >Get in touch.</a
+              >
+            </div>
+
+            <!-- Popular Resources -->
+            <div class="sidebar-section mb-4">
+              <h5>Popular Resources</h5>
+              <ul>
+                <li><a href="#">FREE Branding Bundle Download</a></li>
+                <li><a href="#">Courses & Books</a></li>
+                <li><a href="#">Buying Guides</a></li>
+                <li><a href="#">Tools & Resources</a></li>
+                <li><a href="#">Design Assets</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Coaching</a></li>
+                <li><a href="#">Community</a></li>
+              </ul>
+            </div>
+
+            <!-- Articles -->
+            <div class="sidebar-section">
+              <h5>Articles</h5>
+              <ul>
+                <li>
+                  <a href="#">Branding, identity & logo design explained</a>
+                </li>
+                <li><a href="#">10+ brand strategy resources</a></li>
+                <li><a href="#">6 business templates for designers</a></li>
+                <li><a href="#">30 logos that last a lifetime</a></li>
+                <li><a href="#">How much for a logo?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
